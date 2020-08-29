@@ -1,0 +1,115 @@
+
+%message {
+	color: rgb(0,0,0,);
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	cursor: pointer;
+	text-decoration-style: solid;
+	display: inline-block;
+	text-decoration-line: none;
+}
+
+
+#google-logo {
+  height: 92px;
+  padding-top: 109px;
+  width: 272px;
+  margin-left: 500px;
+
+}
+
+body {
+  background-color: lightgrey;
+}
+
+#grid {
+  height: 30px;
+  width: 30px;
+}
+
+#navbar {
+	display: grid;
+	grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+}
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
+#about{
+	@extend %message;
+	padding-left: 15px;
+	opacity: 0.75;
+
+}
+
+#store{
+	@extend %message;
+	padding-left: 15px;
+
+}
+
+#gmail {
+	@extend %message;
+	opacity: 0.87;
+	line-height: 24px;
+	text-align: right;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	outline-width: 0px;
+	text-decoration-color: rgb(0,0,0,0.87);
+
+}
+
+#images {
+	@extend %message;
+	opacity: 0.87;
+	line-height: 24px;
+	text-align: right;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	outline-width: 0px;
+	text-decoration-color: rgb(0,0,0,0.87);
+
+}
+
+#menu {
+	@extend %message;
+	text-align: left;
+}
+
+#sign-in {
+
+}
+
+input {
+	display: flex;
+	margin-left: 370px;
+	width: 500px;
+	height: 40px;
+	padding-left: 15px;
+	font-size: 20px;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0px 3px 0px 0px #e5e5e5;
+}
+
+footer {
+	display: grid;
+	grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+}
+
+#ad {
+	color: rgb(95,99,104);
+	cursor: pointer;
+	/*display: inline-block;*/
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	line-height: 40px;
+	padding-left: 27px;
+	text-decoration-color: rgb(95,99,104);
+	text-decoration-style: solid;
+	text-decoration-line: none;
+	white-space: nowrap;
+}
